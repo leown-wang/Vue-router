@@ -1,23 +1,5 @@
-body {
-    font-family: "Lato","Hiragino Sans GB", "Helvetica Neue", "Micrsoft YaHei", sans-serif;
-    background-color: #f7f8f9;
-    margin: 20px 40px;
-}
-
-ul {
-    margin-top: 10px;
-}
-
-p {
-    margin: 20px;
-    color: gray;
-}
-.router-link-active{
-    background-color: ghostwhite;
-    font-weight: bold;
-}
-a,a:hover {
-    text-decoration: none;
-    color: black;
-}
-
+body {font-family: "Lato","Hiragino Sans GB", "Helvetica Neue", "Micrsoft YaHei", sans-serif;background-color: #f7f8f9;margin: 20px 40px;}
+ul {margin-top: 10px;}
+p {margin: 20px;color: gray;}
+.link-active{background-color: ghostwhite;font-weight: bold;}
+a,a:hover {text-decoration: none;color: black;}
