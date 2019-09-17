@@ -28,8 +28,9 @@
 				<div class="col-xs-6">
 					<div class="panel">
 						<div class="panel-body">
-							<!--用于渲染匹配的组件-->
-							<router-view></router-view>
+							<transition name="fade"  mode="out-in"> //mode属性则控制离开/进入的过渡时间
+								<router-view></router-view>
+							</transition>
 						</div>
 					</div>
 				</div>
